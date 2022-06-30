@@ -1,0 +1,59 @@
+@media only screen and (max-width: 768px) {
+  .title + * {
+    margin-top: 16px;
+  }
+  .bt {
+    height: 3.2rem;
+  }
+  .number {
+    padding: 3px 15px;
+  }
+  #login {
+    min-height: calc(100vh - 44px);
+  }
+  #login h1 + * {
+    margin-top: 1rem;
+  }
+  #nav-zylt-4 .square-grid {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  #nav-zylt-4 .square {
+    max-width: 470px;
+  }
+  #nav-zylt-5 .box-left img {
+    max-width: 14rem;
+  }
+  #nav-zylt-5 .box-right img {
+    max-width: 18rem;
+  }
+  #nav-zylt-5 .text-grid {
+    grid-template-columns: 1fr;
+  }
+  #nav-zylt-5 .square-grid {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  #nav-zylt-5 .square-grid-2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  #nav-zylt-5 .square {
+    max-width: 470px;
+  }
+  footer .container-zylt {
+    justify-content: center;
+    flex-direction: column;
+  }
+  footer .links-footer {
+    flex-direction: column-reverse;
+    gap: unset;
+    text-align: center;
+  }
+  footer .links-footer + * {
+    margin-top: 10px;
+  }
+}

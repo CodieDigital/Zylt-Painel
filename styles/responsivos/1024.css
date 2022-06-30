@@ -1,0 +1,67 @@
+@media only screen and (max-width: 1024px) {
+  .square-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  input {
+    border-radius: 7px;
+    padding: 0.8rem;
+  }
+  .bt {
+    height: 3.4rem;
+  }
+  #login .container-input + * {
+    margin-top: 12px;
+  }
+  #login .logo {
+    margin: 0 auto;
+    display: block;
+  }
+  #login h1 + * {
+    margin-top: 1rem;
+  }
+  #login h1 {
+    text-align: center;
+  }
+  #login .background {
+    display: none;
+  }
+  #login form .content-form {
+    max-width: 400px;
+    padding: 20px 0;
+  }
+  #nav-zylt-1 .square-grid {
+    display: flex;
+    justify-content: center;
+  }
+  #nav-zylt-1 .square {
+    max-width: 300px;
+  }
+  #nav-zylt-3 .bot p + * {
+    margin-top: 0.8rem;
+  }
+  #nav-zylt-3 .bot li + * {
+    margin-top: 0.8rem;
+  }
+  #nav-zylt-4 .square img {
+    max-width: 13rem;
+  }
+  #nav-zylt-5 .box-left img {
+    max-width: 16rem;
+  }
+  #nav-zylt-5 .box-right img {
+    max-width: 24rem;
+  }
+  #nav-zylt-6 .profile {
+    text-align: center;
+    margin: 0 auto;
+  }
+  #nav-zylt-6 .square-grid {
+    max-width: 430px;
+    margin: 0 auto;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  #nav-zylt-6 .square {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,14 @@
+@media only screen and (max-width: 500px) {
+  .bt {
+    height: 3rem;
+  }
+  #nav-zylt-4 .square img {
+    max-width: 10rem;
+  }
+  #nav-zylt-5 .box-left img {
+    max-width: 11rem;
+  }
+  #nav-zylt-5 .box-right img {
+    max-width: 12rem;
+  }
+}

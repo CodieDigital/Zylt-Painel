@@ -1,0 +1,218 @@
+@font-face {
+  font-family: "Manrope";
+  src: url("../fonts/manrope.bold.otf") format("opentype");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Manrope";
+  src: url("../fonts/manrope.regular.otf") format("opentype");
+  font-weight: 400;
+}
+body {
+  font-family: "Manrope" !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+span,
+strong,
+time,
+address,
+i,
+a,
+b,
+label,
+li,
+td {
+  text-rendering: optimizeLegibility !important;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.lowercase {
+  text-transform: lowercase;
+}
+[class*="bold"] {
+  font-weight: 700;
+}
+[class*="semibold"] {
+  font-weight: 600;
+}
+[class*="medium"] {
+  font-weight: 500;
+}
+[class*="regular"] {
+  font-weight: 400;
+}
+[class*="light"] {
+  font-weight: 300;
+}
+[class*="italic"] {
+  font-style: italic !important;
+}
+[class*="titulo-1"] {
+  font-size: 2rem;
+}
+[class*="titulo-2"] {
+  font-size: 1.75rem;
+}
+[class*="titulo-3"] {
+  font-size: 1.5rem;
+}
+[class*="titulo-4"] {
+  font-size: 1.13rem;
+}
+[class*="paragrafo-1"] {
+  font-size: 1.5rem;
+}
+[class*="paragrafo-2"] {
+  font-size: 1rem;
+}
+[class*="link-1"] {
+  font-size: 1.13rem;
+}
+[class*="link-2"] {
+  font-size: 1rem;
+}
+[class*="link-3"] {
+  font-size: 0.875rem;
+}
+@media only screen and (max-width: 1600px) {
+  html {
+    font-size: 15.5px;
+  }
+  [class*="titulo-1"] {
+    font-size: 1.9rem;
+  }
+  [class*="titulo-2"] {
+    font-size: 1.7em;
+  }
+  [class*="titulo-3"] {
+    font-size: 1.45rem;
+  }
+  [class*="titulo-4"] {
+    font-size: 1.1rem;
+  }
+  [class*="paragrafo-1"] {
+    font-size: 1.45rem;
+  }
+  [class*="paragrafo-2"] {
+    font-size: 0.95rem;
+  }
+  [class*="link-1"] {
+    font-size: 1.1rem;
+  }
+  [class*="link-2"] {
+    font-size: 0.95rem;
+  }
+  [class*="link-3"] {
+    font-size: 0.85rem;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  html {
+    font-size: 15px;
+  }
+  [class*="titulo-1"] {
+    font-size: 1.8rem;
+  }
+  [class*="titulo-2"] {
+    font-size: 1.65em;
+  }
+  [class*="titulo-3"] {
+    font-size: 1.4rem;
+  }
+  [class*="titulo-4"] {
+    font-size: 1.07rem;
+  }
+  [class*="paragrafo-1"] {
+    font-size: 1.4rem;
+  }
+  [class*="paragrafo-2"] {
+    font-size: 0.9rem;
+  }
+  [class*="link-1"] {
+    font-size: 1.07rem;
+  }
+  [class*="link-2"] {
+    font-size: 0.9rem;
+  }
+  [class*="link-3"] {
+    font-size: 0.83rem;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  html {
+    font-size: 14px;
+  }
+  [class*="titulo-1"] {
+    font-size: 1.7rem;
+  }
+  [class*="titulo-2"] {
+    font-size: 1.6em;
+  }
+  [class*="titulo-3"] {
+    font-size: 1.35rem;
+  }
+  [class*="titulo-4"] {
+    font-size: 1.04rem;
+  }
+  [class*="paragrafo-1"] {
+    font-size: 1.35rem;
+  }
+  [class*="paragrafo-2"] {
+    font-size: 0.85rem;
+  }
+  [class*="link-1"] {
+    font-size: 1.04rem;
+  }
+  [class*="link-2"] {
+    font-size: 0.85rem;
+  }
+  [class*="link-3"] {
+    font-size: 0.81rem;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  html {
+    font-size: 13.5px;
+  }
+  [class*="titulo-3"] {
+    font-size: 1.25rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 13px;
+  }
+  [class*="titulo-1"] {
+    font-size: 1.6rem;
+  }
+  [class*="titulo-2"] {
+    font-size: 1.55em;
+  }
+  [class*="titulo-3"] {
+    font-size: 1.2rem;
+  }
+  [class*="titulo-4"] {
+    font-size: 1rem;
+  }
+  [class*="paragrafo-1"] {
+    font-size: 1.3rem;
+  }
+  [class*="paragrafo-2"] {
+    font-size: 0.9rem;
+  }
+  [class*="link-1"] {
+    font-size: 1rem;
+  }
+  [class*="link-2"] {
+    font-size: 0.9rem;
+  }
+  [class*="link-3"] {
+    font-size: 0.8rem;
+  }
+}

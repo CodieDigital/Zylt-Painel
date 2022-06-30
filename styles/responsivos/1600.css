@@ -1,0 +1,14 @@
+@media only screen and (max-width: 1600px) {
+  #login {
+    min-height: calc(100vh - 51px);
+  }
+  #nav-zylt-5 .box-left img {
+    max-width: 25.75rem;
+  }
+  #nav-zylt-5 .box-right img {
+    max-width: 33.375rem;
+  }
+  #nav-zylt-6 .title {
+    max-width: unset;
+  }
+}
